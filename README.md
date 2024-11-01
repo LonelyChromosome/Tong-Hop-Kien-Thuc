@@ -285,8 +285,8 @@ tin mới mục đích khác nhau.
 
 - Tránh sử dụng ký tự đặc biệt (?, /, *, <, “, >, |, ...) trong việc đặt tên các file và thư mục
 # **Cấu trúc cây thư mục**
-## *Cấu trúc cây thư mục:* Các tập tin và thư mục thường được tổ chức theo dạng phân cấp giống hình cây: thư mục gốc, và các thư mục con
-## *Đường dẫn (Path name):* là chuỗi ký tự mô tả vị trí của tập tin hoặc thư mục trong một hệ thống máy tính
+- *Cấu trúc cây thư mục:* Các tập tin và thư mục thường được tổ chức theo dạng phân cấp giống hình cây: thư mục gốc, và các thư mục con
+- *Đường dẫn (Path name):* là chuỗi ký tự mô tả vị trí của tập tin hoặc thư mục trong một hệ thống máy tính
 
 ### Trong Hệ điều hành Windows:
 
