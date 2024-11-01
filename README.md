@@ -1,4 +1,4 @@
-# *** Bài 1 : Cơ bản về máy tính và công nghệ thông tin***
+#  Bài 1 : Cơ bản về máy tính và công nghệ thông tin
 
 ## 1. Cơ bản về máy tính và công nghệ thông tin
 
@@ -129,7 +129,7 @@ Máy tính có nhiều ứng dụng trong hầu hết các lĩnh vực:
   - Thẻ nhớ
 
 ---
-# *** Bài 2 :Biểu Diễn Thông Tin Trong Máy Tính***
+#  Bài 2 :Biểu Diễn Thông Tin Trong Máy Tính
 
 ## Thông tin, dữ liệu trong thế giới thực được số hóa
 Dữ liệu thực tế được số hóa để có thể "nhập vào" và xử lý bởi máy tính:
@@ -266,3 +266,277 @@ khái niệm liên quan, đơn vị đo
 Bài tóm tắt này cung cấp một cái nhìn tổng quan về lịch sử phát triển và các thành phần chính của máy tính. Hiểu rõ về máy tính giúp chúng ta nắm bắt được tầm quan trọng của công nghệ thông tin trong cuộc sống và công việc hàng ngày.
 
 ---
+# Bài 3 : Kỹ năng sử dụng máy tính và công cụ
+
+
+# **Khái niệm Tập tin và Thư mục**
+## *Tập tin*: một đơn vị lưu trữ dữ liệu ở các dạng khác nhau (text, audio,image, ...), các chương trình máy tính có thể đọc thông tin từ file hoặcghi thông tin vào một file.
+- Mỗi tập tin có phần tên và mở rộng: bai_tap.pdf, bai_tap.txt, bai_tap.docx, ...
+- Mỗi tập tin có một dung lượng xác định
+- Người dùng có thể sử dụng các chương trình khác nhau để tạo, chỉnh sửa,sao chép, và xoá tập tin
+## *Thư mục*: là một đơn vị logic dùng để nhóm, tổ chức và chứa các tập
+tin mới mục đích khác nhau.
+### Thư mục có thể chứa nhiều thư mục con khác nhau
+### Thư mục thường được đặt tên theo nội dung hoặc mục đích sử dụng
+- Quản lý dữ liệu hiệu quả phục phụ việc tìm kiếm và truy cập dễ dàng
+
+- Tổ chức công việc: phân loại, đặt tên tập tin và thư mục theo mục đích hặc theo dự án
+
+- Đặt tên file và thư mục sử dụng chữ viết thường tránh nhầm lẫn giữa chữ hoa và chữ thường
+
+- Tránh sử dụng ký tự đặc biệt (?, /, *, <, “, >, |, ...) trong việc đặt tên các file và thư mục
+# **Cấu trúc cây thư mục**
+## *Cấu trúc cây thư mục:* Các tập tin và thư mục thường được tổ chức theo dạng phân cấp giống hình cây: thư mục gốc, và các thư mục con
+## *Đường dẫn (Path name):* là chuỗi ký tự mô tả vị trí của tập tin hoặc thư mục trong một hệ thống máy tính
+
+### Trong Hệ điều hành Windows:
+
+-Bắt đầu bằng ký hiệu của ổ đĩa (C:\)
+
+- Các thư mục bên trong đường dẫn dược biểu thị bằng “\”
+
+- Thư mục hoặc tập tin cuối cùng là vị trí được truy cập
+
+- VD: C:\Users\Guner\Documents
+# **Phân loại đường dẫn**
+## *Đường dẫn tuyệt đối (obsolute path):*
+- Chỉ rõ vị chí chính xác của tập tin hoặc thư mục từ thư mục gốc
+- Không phụ thuộc vào vị trí thư mục hiện tại
+- Ví dụ:
+- Windows: C:\Program Files\MyApp\app.exe
+- Unix, MacOS, Linux: /usr/local/bin/my_script.sh
+
+## *Đường dẫn tương đối (relative path)*
+- Chỉ vị trí “tương đối” của tập tin / thư mục từ thư mục hiện tại
+- Dấu “.” đại điện cho thư mục hiện hành, “..” đại diện cho thư mục cha
+- Ví dụ: ../../home/my_directory
+- #  Bài 4 :Hệ Điều Hành Linux 
+## **Lịch sử**
+- Được phát triển vào năm 1992 bởi Linus Torvalds, người cũng đã phát triển git!
+## **Bản phân phối Linux**
+### *Debian*
+- Ubuntu (và các dẫn xuất của nó)
+- Linux Mint
+- Kali Linux
+- Linux lite
+- Raspbian
+- Tails OS
+- Knoppix, etc
+- *Hệ điều hành dựa trên Debian sử dụng Gói Debian (dpkg) để quản lý phần mềm (.deb), -apt*
+### *Red Hat Linux*
+- Red Hat Enterprise Linux (RHEL)
+- Fedora
+- CentOS
+- Linux lite
+- EduLinux
+- Scientific Linux
+- Knoppix, etc
+
+*Các bản phân phối này sử dụng Redhat Package Manage (.rpm), yum để quản lý phần mềm.*
+## **Hệ thống Tệp trong Linux**
+
+### Thư mục Gốc
+`/` - Thư mục gốc chứa tất cả các thư mục.
+
+### Các Thư mục Chính
+
+- `/bin` - Chứa các ứng dụng/chương trình (i.e. binaries).
+- `/dev` - Thiết bị phần cứng.
+- `/etc` - Tệp cấu hình.
+- `/home` - Chứa thư mục chính của người dùng.
+- `/proc` - Chạy chương trình (quy trình).
+- `/tmp`, `/var` - Tệp tạm thời.
+- `/usr` - Tài nguyên hệ thống phổ quát.
+
+### Mô tả Chi Tiết
+
+1. **`/` (Root)**
+   - Thư mục gốc chứa tất cả các thư mục khác trong hệ thống.
+
+2. **`/bin`**
+   - Chứa các chương trình và ứng dụng hệ thống. Ví dụ: các lệnh cơ bản như `ls`, `cp`.
+
+3. **`/dev`**
+   - Chứa các tệp thiết bị của phần cứng, như ổ đĩa, máy in.
+
+4. **`/etc`**
+   - Chứa các tệp cấu hình của hệ thống. Ví dụ: cấu hình mạng, cấu hình người dùng.
+
+5. **`/home`**
+   - Chứa các thư mục cá nhân của mỗi người dùng. Mỗi người dùng có một thư mục riêng.
+
+6. **`/proc`**
+   - Chứa thông tin về các quy trình đang chạy trên hệ thống.
+
+7. **`/tmp`, `/var`**
+   - Chứa các tệp tạm thời, các tệp log, và các tệp dữ liệu thay đổi thường xuyên.
+
+8. **`/usr`**
+   - Chứa các tài nguyên hệ thống dùng chung cho tất cả người dùng. Ví dụ: thư viện phần mềm, tài liệu hướng dẫn.
+
+
+
+## **Thư mục Tương Đối trong Linux**
+
+### Các Thư mục Tương Đối và Mô Tả
+
+- **`.`** 
+  - Tham khảo thư mục làm việc hiện tại.
+- **`..`** 
+  - Tham khảo thư mục cha của thư mục làm việc hiện tại.
+- **`~username`** 
+  - Tham khảo thư mục chính của người dùng `username`.
+- **`~/Desktop`** 
+  - Tham khảo thư mục màn hình nền của bạn.
+
+---
+
+### Giải Thích Chi Tiết
+
+1. **`./` (Thư mục làm việc hiện tại)**
+   - Ký hiệu `.` được sử dụng để chỉ thư mục hiện tại mà bạn đang làm việc. 
+   - Ví dụ: `./file.txt` chỉ tới tệp `file.txt` trong thư mục hiện tại.
+
+2. **`../` (Thư mục cha)**
+   - Ký hiệu `..` được sử dụng để chỉ thư mục cha của thư mục hiện tại.
+   - Ví dụ: `../` đưa bạn lên một cấp thư mục.
+
+3. **`~username` (Thư mục chính của người dùng)**
+   - Ký hiệu `~` được sử dụng để chỉ thư mục chính của người dùng.
+   - Ví dụ: `~john` sẽ chỉ tới thư mục chính của người dùng `john`.
+
+4. **`~/Desktop` (Thư mục màn hình nền)**
+   - Ký hiệu `~/Desktop` chỉ tới thư mục màn hình nền của người dùng hiện tại.
+   - Ví dụ: `~/Desktop` sẽ chỉ tới thư mục màn hình nền của bạn.
+## **The Shell**
+### *Shell:* Một chương trình tương tác cho
+phép người dùng tương tác với hệ điều
+hành và các ứng dụng của nó
+### *Tại sao sử dụng shell so với GUI (Giao diện người dùng đồ họa)?*
+- Nhiều tác vụ phức tạp dễ thực hiện hơn trên dòng lệnh
+- Hữu ích để làm việc trên các máy chủ từ xa
+- Có thể lập trình
+- Tùy biến
+
+## ** Cấu trúc dòng lệnh **
+### *command [options] [arguments]*
+- command: Là lệnh mà bạn muốn thực thi. Ví dụ: ls, cd, cp, mv.
+
+- options: Các tùy chọn bổ sung để điều chỉnh hành vi của lệnh. Thường bắt đầu bằng dấu gạch ngang (-). Ví dụ: -l, -a, --help.
+
+- arguments: Các đối số là đầu vào mà lệnh sẽ thao tác. Ví dụ: tên tệp hoặc thư mục.
+## **Các Lệnh Cơ Bản trong Linux**
+
+- |------------|-------------------------------------------------|
+- | `pwd`      | In thư mục làm việc hiện tại                    |
+- | `cd`       | Thay đổi thư mục làm việc                       |
+- | `ls`       | Liệt kê các tập tin trong thư mục làm việc      |
+- | `man`      | Đưa ra hướng dẫn cho một lệnh                   |
+- | `exit`     | Đăng xuất khỏi shell                            |
+- | `clear`    | Xóa tất cả đầu ra khỏi bảng điều khiển          |
+- | `date`     | Xuất ngày hệ thống                              |
+- | `cal`      | Xuất lịch văn bản                               |
+ -| `uname`    | In thông tin về hệ thống hiện tại               |
+- | `mkdir`    | Tạo một thư mục mới                             |
+- | `rmdir`    | Xóa thư mục đã cho (phải trống)                 |
+- | `cat`      | Hiển thị nội dung tệp                           |
+- | `cp`       | Sao chép tệp                                    |
+- | `mv`       | Di chuyển tệp (cũng được sử dụng để đổi tên tệp)|
+- | `rm`       | Xóa tệp đã cho                                  |
+- | `touch`    | Tạo tệp trống hoặc thay đổi thời gian sửa đổi   |  
+
+---
+
+# ** Hệ thống tệp và quyền **
+- Mỗi người dùng có thể sở hữu một hoặc nhiều thư mục / tệp
+- Mỗi người dùng có quyền truy cập khác nhau- trong các thư mục / tệp khác nhau
+- =>Người dùng có thể chia sẻ dữ liệu của họ với nhau
+- =>Người dùng cũng có thể bảo vệ dữ liệu cá nhân của họ
+## *Truy cập ngay trên thư mục / tệp*
+- read (r)
+- write (w)
+- execute (x)
+
+## *Mỗi thư mục/file có 9 bit bên phải truy cập, được chia thành 3 nhóm như sau:*
+- chủ nhân
+- nhóm (ví dụ: những người trong cùng một nhóm dự án)
+- những người khác (những người trong phạm vi công cộng)
+## **Thay đổi quyền truy cập**
+
+### **Tượng trưng**
+
+- *chmod who op mode [-R] file(s)*
+### Đối tượng
+
+- Who: 
+1. u : owner ( người sở hữu )
+2. g : group ( nhóm làm việc )
+3. o : others ( những người khác )
+4. a : all (tất cả )
+- Mode:
+1. r : read ( chỉ đọc )
+2. w : write ( chỉ ghi )
+3. x : execute ( Thao tác )
+
+- Op :
+1. + : Thêm quyền
+2. - : Bỏ quyền
+3. = : Reset
+ ## ** Thay đổi quyền truy cập **
+### Dùng chmod
+
+ - ** chmod xyz [-R] file(s)**
+### * 1 số quyền *
+- | Số  | Quyền truy cập  | Mô tả              |
+- |-----|-----------------|--------------------|
+- | 600 | `rw-------`     | Chủ sở hữu có quyền đọc và ghi. |
+- | 644 | `rw-r--r--`     | Chủ sở hữu có quyền đọc và ghi; nhóm và người khác chỉ có quyền đọc. |
+- | 700 | `rwx------`     | Chủ sở hữu có quyền đọc, ghi và thực thi. |
+- | 751 | `rwxr-x--x`     | Chủ sở hữu có quyền đọc, ghi và thực thi; nhóm có quyền đọc và thực thi; người khác chỉ có quyền thực thi. |
+- | 775 | `rwxrwxr-x`     | Chủ sở hữu và nhóm có quyền đọc, ghi và thực thi; người khác chỉ có quyền đọc và thực thi. |
+- | 777 | `rwxrwxrwx`     | Tất cả mọi người có quyền đọc, ghi và thực thi. |
+---
+# *** Kết Luận ***
+- *Linux không chỉ là một hệ điều hành dành cho các nhà phát triển hoặc quản trị hệ thống, mà còn là một lựa chọn tuyệt vời cho người dùng cá nhân tìm kiếm sự linh hoạt và bảo mật.
+Với sự hỗ trợ mạnh mẽ từ cộng đồng và tài liệu phong phú, Linux tiếp tục là một trong những hệ điều hành quan trọng và phổ biến nhất thế giới.*
+#  **Bài 5 : Git**
+## **GitHub là gì?**
+- GitHub.com là trang web lưu trữ trực tuyến các kho lưu trữ Git.
+- Nhiều dự án nguồn mở sử dụng nó, chẳng hạn như hạt nhân Linux.
+- Bạn có thể nhận được không gian miễn phí cho các dự án nguồn mở hoặc bạn có thể trả tiền cho các dự án riêng tư.
+### *Câu hỏi:* Tôi có phải sử dụng GitHub để sử dụng Git không?
+### *Trả lời:* KHÔNG!
+- Bạn có thể sử dụng Git hoàn toàn cục bộ cho mục đích của riêng bạn 
+## ** Lịch sử **
+- Xuất phát từ cộng đồng phát triển Linux
+
+- Linus Torvalds, 2005
+- *Mục tiêu ban đầu:*
+- Tốc độ
+- Hỗ trợ phát triển phi tuyến tính (hàng ngàn nhánh song song)
+- Phân phối đầy đủ
+
+- Có khả năng xử lý các dự án lớn như Linux một cách hiệu quả
+## **Các Lệnh Git Cơ Bản**
+
+-| Lệnh             | Mô tả                                                                            |
+-|------------------|----------------------------------------------------------------------------------|
+-| `git clone url [dir]` | Sao chép kho lưu trữ git để bạn có thể thêm vào đó                               |
+-| `git add files`      | Thêm nội dung tập tin vào vùng dàn dựng                                         |
+-| `git commit`         | Ghi lại ảnh chụp nhanh của khu vực dàn dựng                                      |
+-| `git status`         | Xem trạng thái của các tập tin của bạn trong thư mục làm việc và khu vực dàn dựng |
+-| `git diff`           | Hiển thị sự khác biệt giữa những gì được dàn dựng và những gì được sửa đổi nhưng không được dàn dựng |
+-| `git help [command]` | Nhận thông tin trợ giúp về một lệnh cụ thể                                       |
+-| `git pull`           | Lấy từ một kho lưu trữ từ xa và thử hợp nhất vào nhánh hiện tại                  |
+-| `git push`           | Đẩy các nhánh và dữ liệu mới của bạn vào kho lưu trữ từ                                              |
+
+---
+# ** kết luận **
+- *Git là một công cụ không thể thiếu cho bất kỳ lập trình viên nào, cung cấp khả năng theo dõi và quản 
+lý mã nguồn một cách hiệu quả. Với Git, bạn có thể dễ dàng quản lý dự án của mình, hợp tác với các lập trình 
+viên khác và đảm bảo chất lượng mã nguồn qua thời gian.*
+
+
+
+
+
