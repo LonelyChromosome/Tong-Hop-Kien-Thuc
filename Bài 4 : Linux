@@ -1,0 +1,194 @@
+# *** Hệ Điều Hành Linux ***
+## **Lịch sử**
+- Được phát triển vào năm 1992 bởi Linus Torvalds, người cũng đã phát triển git!
+## **Bản phân phối Linux**
+### *Debian*
+- Ubuntu (và các dẫn xuất của nó)
+- Linux Mint
+- Kali Linux
+- Linux lite
+- Raspbian
+- Tails OS
+- Knoppix, etc
+- *Hệ điều hành dựa trên Debian sử dụng Gói Debian (dpkg) để quản lý phần mềm (.deb), -apt*
+### *Red Hat Linux*
+- Red Hat Enterprise Linux (RHEL)
+- Fedora
+- CentOS
+- Linux lite
+- EduLinux
+- Scientific Linux
+- Knoppix, etc
+
+*Các bản phân phối này sử dụng Redhat Package Manage (.rpm), yum để quản lý phần mềm.*
+## **Hệ thống Tệp trong Linux**
+
+### Thư mục Gốc
+`/` - Thư mục gốc chứa tất cả các thư mục.
+
+### Các Thư mục Chính
+
+- `/bin` - Chứa các ứng dụng/chương trình (i.e. binaries).
+- `/dev` - Thiết bị phần cứng.
+- `/etc` - Tệp cấu hình.
+- `/home` - Chứa thư mục chính của người dùng.
+- `/proc` - Chạy chương trình (quy trình).
+- `/tmp`, `/var` - Tệp tạm thời.
+- `/usr` - Tài nguyên hệ thống phổ quát.
+
+### Mô tả Chi Tiết
+
+1. **`/` (Root)**
+   - Thư mục gốc chứa tất cả các thư mục khác trong hệ thống.
+
+2. **`/bin`**
+   - Chứa các chương trình và ứng dụng hệ thống. Ví dụ: các lệnh cơ bản như `ls`, `cp`.
+
+3. **`/dev`**
+   - Chứa các tệp thiết bị của phần cứng, như ổ đĩa, máy in.
+
+4. **`/etc`**
+   - Chứa các tệp cấu hình của hệ thống. Ví dụ: cấu hình mạng, cấu hình người dùng.
+
+5. **`/home`**
+   - Chứa các thư mục cá nhân của mỗi người dùng. Mỗi người dùng có một thư mục riêng.
+
+6. **`/proc`**
+   - Chứa thông tin về các quy trình đang chạy trên hệ thống.
+
+7. **`/tmp`, `/var`**
+   - Chứa các tệp tạm thời, các tệp log, và các tệp dữ liệu thay đổi thường xuyên.
+
+8. **`/usr`**
+   - Chứa các tài nguyên hệ thống dùng chung cho tất cả người dùng. Ví dụ: thư viện phần mềm, tài liệu hướng dẫn.
+
+
+
+## **Thư mục Tương Đối trong Linux**
+
+### Các Thư mục Tương Đối và Mô Tả
+
+- **`.`** 
+  - Tham khảo thư mục làm việc hiện tại.
+- **`..`** 
+  - Tham khảo thư mục cha của thư mục làm việc hiện tại.
+- **`~username`** 
+  - Tham khảo thư mục chính của người dùng `username`.
+- **`~/Desktop`** 
+  - Tham khảo thư mục màn hình nền của bạn.
+
+---
+
+### Giải Thích Chi Tiết
+
+1. **`./` (Thư mục làm việc hiện tại)**
+   - Ký hiệu `.` được sử dụng để chỉ thư mục hiện tại mà bạn đang làm việc. 
+   - Ví dụ: `./file.txt` chỉ tới tệp `file.txt` trong thư mục hiện tại.
+
+2. **`../` (Thư mục cha)**
+   - Ký hiệu `..` được sử dụng để chỉ thư mục cha của thư mục hiện tại.
+   - Ví dụ: `../` đưa bạn lên một cấp thư mục.
+
+3. **`~username` (Thư mục chính của người dùng)**
+   - Ký hiệu `~` được sử dụng để chỉ thư mục chính của người dùng.
+   - Ví dụ: `~john` sẽ chỉ tới thư mục chính của người dùng `john`.
+
+4. **`~/Desktop` (Thư mục màn hình nền)**
+   - Ký hiệu `~/Desktop` chỉ tới thư mục màn hình nền của người dùng hiện tại.
+   - Ví dụ: `~/Desktop` sẽ chỉ tới thư mục màn hình nền của bạn.
+## **The Shell**
+### *Shell:* Một chương trình tương tác cho
+phép người dùng tương tác với hệ điều
+hành và các ứng dụng của nó
+### *Tại sao sử dụng shell so với GUI (Giao diện người dùng đồ họa)?*
+- Nhiều tác vụ phức tạp dễ thực hiện hơn trên dòng lệnh
+- Hữu ích để làm việc trên các máy chủ từ xa
+- Có thể lập trình
+- Tùy biến
+
+## ** Cấu trúc dòng lệnh **
+### *command [options] [arguments]*
+- command: Là lệnh mà bạn muốn thực thi. Ví dụ: ls, cd, cp, mv.
+
+- options: Các tùy chọn bổ sung để điều chỉnh hành vi của lệnh. Thường bắt đầu bằng dấu gạch ngang (-). Ví dụ: -l, -a, --help.
+
+- arguments: Các đối số là đầu vào mà lệnh sẽ thao tác. Ví dụ: tên tệp hoặc thư mục.
+## **Các Lệnh Cơ Bản trong Linux**
+
+|------------|-------------------------------------------------|
+| `pwd`      | In thư mục làm việc hiện tại                    |
+| `cd`       | Thay đổi thư mục làm việc                       |
+| `ls`       | Liệt kê các tập tin trong thư mục làm việc      |
+| `man`      | Đưa ra hướng dẫn cho một lệnh                   |
+| `exit`     | Đăng xuất khỏi shell                            |
+| `clear`    | Xóa tất cả đầu ra khỏi bảng điều khiển          |
+| `date`     | Xuất ngày hệ thống                              |
+| `cal`      | Xuất lịch văn bản                               |
+| `uname`    | In thông tin về hệ thống hiện tại               |
+| `mkdir`    | Tạo một thư mục mới                             |
+| `rmdir`    | Xóa thư mục đã cho (phải trống)                 |
+| `cat`      | Hiển thị nội dung tệp                           |
+| `cp`       | Sao chép tệp                                    |
+| `mv`       | Di chuyển tệp (cũng được sử dụng để đổi tên tệp)|
+| `rm`       | Xóa tệp đã cho                                  |
+| `touch`    | Tạo tệp trống hoặc thay đổi thời gian sửa đổi   |  
+
+---
+
+# ** Hệ thống tệp và quyền **
+- Mỗi người dùng có thể sở hữu một hoặc nhiều thư mục / tệp
+- Mỗi người dùng có quyền truy cập khác nhau- trong các thư mục / tệp khác nhau
+- =>Người dùng có thể chia sẻ dữ liệu của họ với nhau
+- =>Người dùng cũng có thể bảo vệ dữ liệu cá nhân của họ
+## *Truy cập ngay trên thư mục / tệp*
+- read (r)
+- write (w)
+- execute (x)
+
+## *Mỗi thư mục/file có 9 bit bên phải truy cập, được chia thành 3 nhóm như sau:*
+- chủ nhân
+- nhóm (ví dụ: những người trong cùng một nhóm dự án)
+- những người khác (những người trong phạm vi công cộng)
+## **Thay đổi quyền truy cập**
+
+### **Tượng trưng**
+
+- *chmod who op mode [-R] file(s)*
+### Đối tượng
+
+- Who: 
+1. u : owner ( người sở hữu )
+2. g : group ( nhóm làm việc )
+3. o : others ( những người khác )
+4. a : all (tất cả )
+- Mode:
+1. r : read ( chỉ đọc )
+2. w : write ( chỉ ghi )
+3. x : execute ( Thao tác )
+
+- Op :
+1. + : Thêm quyền
+2. - : Bỏ quyền
+3. = : Reset
+ ## ** Thay đổi quyền truy cập **
+### Dùng chmod
+
+ - ** chmod xyz [-R] file(s)**
+### * 1 số quyền *
+| Số  | Quyền truy cập  | Mô tả              |
+|-----|-----------------|--------------------|
+| 600 | `rw-------`     | Chủ sở hữu có quyền đọc và ghi. |
+| 644 | `rw-r--r--`     | Chủ sở hữu có quyền đọc và ghi; nhóm và người khác chỉ có quyền đọc. |
+| 700 | `rwx------`     | Chủ sở hữu có quyền đọc, ghi và thực thi. |
+| 751 | `rwxr-x--x`     | Chủ sở hữu có quyền đọc, ghi và thực thi; nhóm có quyền đọc và thực thi; người khác chỉ có quyền thực thi. |
+| 775 | `rwxrwxr-x`     | Chủ sở hữu và nhóm có quyền đọc, ghi và thực thi; người khác chỉ có quyền đọc và thực thi. |
+| 777 | `rwxrwxrwx`     | Tất cả mọi người có quyền đọc, ghi và thực thi. |
+---
+# *** Kết Luận ***
+- *Linux không chỉ là một hệ điều hành dành cho các nhà phát triển hoặc quản trị hệ thống, mà còn là một lựa chọn tuyệt vời cho người dùng cá nhân tìm kiếm sự linh hoạt và bảo mật.
+Với sự hỗ trợ mạnh mẽ từ cộng đồng và tài liệu phong phú, Linux tiếp tục là một trong những hệ điều hành quan trọng và phổ biến nhất thế giới.*
+
+
+
+
+
