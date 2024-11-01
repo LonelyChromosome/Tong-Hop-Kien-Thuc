@@ -269,12 +269,11 @@ Bài tóm tắt này cung cấp một cái nhìn tổng quan về lịch sử ph
 # Bài 3 : Kỹ năng sử dụng máy tính và công cụ
 
 # **Khái niệm Tập tin và Thư mục**
-## *Tập tin*: một đơn vị lưu trữ dữ liệu ở các dạng khác nhau (text, audio,image, ...), các chương trình máy tính có thể đọc thông tin từ file hoặcghi thông tin vào một file.
+### *Tập tin*: một đơn vị lưu trữ dữ liệu ở các dạng khác nhau (text, audio,image, ...), các chương trình máy tính có thể đọc thông tin từ file hoặcghi thông tin vào một file.
 - Mỗi tập tin có phần tên và mở rộng: bai_tap.pdf, bai_tap.txt, bai_tap.docx, ...
 - Mỗi tập tin có một dung lượng xác định
 - Người dùng có thể sử dụng các chương trình khác nhau để tạo, chỉnh sửa,sao chép, và xoá tập tin
-## *Thư mục*: là một đơn vị logic dùng để nhóm, tổ chức và chứa các tập
-tin mới mục đích khác nhau.
+### *Thư mục*: là một đơn vị logic dùng để nhóm, tổ chức và chứa các tập tin mới mục đích khác nhau.
 ### Thư mục có thể chứa nhiều thư mục con khác nhau
 ### Thư mục thường được đặt tên theo nội dung hoặc mục đích sử dụng
 - Quản lý dữ liệu hiệu quả phục phụ việc tìm kiếm và truy cập dễ dàng
