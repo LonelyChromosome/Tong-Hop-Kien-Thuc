@@ -1,0 +1,36 @@
+#  ***GitHub***
+## **GitHub là gì?**
+- GitHub.com là trang web lưu trữ trực tuyến các kho lưu trữ Git.
+- Nhiều dự án nguồn mở sử dụng nó, chẳng hạn như hạt nhân Linux.
+- Bạn có thể nhận được không gian miễn phí cho các dự án nguồn mở hoặc bạn có thể trả tiền cho các dự án riêng tư.
+### *Câu hỏi:* Tôi có phải sử dụng GitHub để sử dụng Git không?
+### *Trả lời:* KHÔNG!
+- Bạn có thể sử dụng Git hoàn toàn cục bộ cho mục đích của riêng bạn 
+## ** Lịch sử **
+- Xuất phát từ cộng đồng phát triển Linux
+
+- Linus Torvalds, 2005
+- *Mục tiêu ban đầu:*
+- Tốc độ
+- Hỗ trợ phát triển phi tuyến tính (hàng ngàn nhánh song song)
+- Phân phối đầy đủ
+
+- Có khả năng xử lý các dự án lớn như Linux một cách hiệu quả
+## **Các Lệnh Git Cơ Bản**
+
+| Lệnh             | Mô tả                                                                            |
+|------------------|----------------------------------------------------------------------------------|
+| `git clone url [dir]` | Sao chép kho lưu trữ git để bạn có thể thêm vào đó                               |
+| `git add files`      | Thêm nội dung tập tin vào vùng dàn dựng                                         |
+| `git commit`         | Ghi lại ảnh chụp nhanh của khu vực dàn dựng                                      |
+| `git status`         | Xem trạng thái của các tập tin của bạn trong thư mục làm việc và khu vực dàn dựng |
+| `git diff`           | Hiển thị sự khác biệt giữa những gì được dàn dựng và những gì được sửa đổi nhưng không được dàn dựng |
+| `git help [command]` | Nhận thông tin trợ giúp về một lệnh cụ thể                                       |
+| `git pull`           | Lấy từ một kho lưu trữ từ xa và thử hợp nhất vào nhánh hiện tại                  |
+| `git push`           | Đẩy các nhánh và dữ liệu mới của bạn vào kho lưu trữ từ                                              |
+
+---
+# *** kết luận *** 
+- *Git là một công cụ không thể thiếu cho bất kỳ lập trình viên nào, cung cấp khả năng theo dõi và quản 
+lý mã nguồn một cách hiệu quả. Với Git, bạn có thể dễ dàng quản lý dự án của mình, hợp tác với các lập trình 
+viên khác và đảm bảo chất lượng mã nguồn qua thời gian.*
