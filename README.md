@@ -487,14 +487,14 @@ hành và các ứng dụng của nó
 
  - ** chmod xyz [-R] file(s)**
 ### * 1 số quyền *
-- | Số  | Quyền truy cập  | Mô tả              |
-- |-----|-----------------|--------------------|
-- | 600 | `rw-------`     | Chủ sở hữu có quyền đọc và ghi. |
-- | 644 | `rw-r--r--`     | Chủ sở hữu có quyền đọc và ghi; nhóm và người khác chỉ có quyền đọc. |
-- | 700 | `rwx------`     | Chủ sở hữu có quyền đọc, ghi và thực thi. |
-- | 751 | `rwxr-x--x`     | Chủ sở hữu có quyền đọc, ghi và thực thi; nhóm có quyền đọc và thực thi; người khác chỉ có quyền thực thi. |
-- | 775 | `rwxrwxr-x`     | Chủ sở hữu và nhóm có quyền đọc, ghi và thực thi; người khác chỉ có quyền đọc và thực thi. |
-- | 777 | `rwxrwxrwx`     | Tất cả mọi người có quyền đọc, ghi và thực thi. |
+| Số  | Quyền truy cập  | Mô tả              |
+ |-----|-----------------|--------------------|
+ | 600 | `rw-------`     | Chủ sở hữu có quyền đọc và ghi. |
+ | 644 | `rw-r--r--`     | Chủ sở hữu có quyền đọc và ghi; nhóm và người khác chỉ có quyền đọc. |
+ | 700 | `rwx------`     | Chủ sở hữu có quyền đọc, ghi và thực thi. |
+ | 751 | `rwxr-x--x`     | Chủ sở hữu có quyền đọc, ghi và thực thi; nhóm có quyền đọc và thực thi; người khác chỉ có quyền thực thi. |
+ | 775 | `rwxrwxr-x`     | Chủ sở hữu và nhóm có quyền đọc, ghi và thực thi; người khác chỉ có quyền đọc và thực thi. |
+| 777 | `rwxrwxrwx`     | Tất cả mọi người có quyền đọc, ghi và thực thi. |
 ---
 # *** Kết Luận ***
 - *Linux không chỉ là một hệ điều hành dành cho các nhà phát triển hoặc quản trị hệ thống, mà còn là một lựa chọn tuyệt vời cho người dùng cá nhân tìm kiếm sự linh hoạt và bảo mật.
