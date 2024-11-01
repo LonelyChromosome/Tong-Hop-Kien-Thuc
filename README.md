@@ -164,21 +164,21 @@ Dữ liệu thực tế được số hóa để có thể "nhập vào" và x�
 | MegaByte | MB    | 1024 KB |
 | GigaByte | GB    | 1024 MB |
 | TeraByte | TB    | 1024 GB |
-# ***Hệ thống Số***
+## **Hệ thống Số**
 
-## Định nghĩa
+### Định nghĩa
 - Một số được biểu diễn như thế nào thông qua các ký hiệu.
 - Một số có thể được biểu diễn trong các hệ thống số khác nhau.
 
-## Hệ thống số theo (có) vị trí
+### Hệ thống số theo (có) vị trí
 - Trong hệ thống số có vị trí, vị trí mà một ký hiệu chiếm trong số quyết định giá trị mà nó đại diện.
 
-## Hệ thống số không theo (không có) vị trí
+### Hệ thống số không theo (không có) vị trí
 - Giá trị không phụ thuộc vào vị trí của số.
 - Ví dụ:
   - Số La mã (Roman): ký hiệu X có giá trị là 10 hay IV có giá trị là 4.
 
-## Các hệ thống số phổ biến
+### Các hệ thống số phổ biến
 - **Hệ thập phân (Decimal)**: Sử dụng các số từ 0 đến 9.
 - **Hệ nhị phân (Binary)**: Sử dụng các số 0 và 1, thường dùng trong máy tính.
 - **Hệ thập lục phân (Hexadecimal)**: Sử dụng các số từ 0 đến 9 và các chữ cái từ A đến F (đại diện cho các giá trị từ 10 đến 15).
@@ -212,10 +212,10 @@ Số 1010 trong hệ nhị phân:
 - Ví Dụ : số 25 được biểu diễn là 19 ở hệ thập lục phân
 
 
-# ***Chuyển Đổi Cơ Số***
-## *Chuyển đổi bất cứ cơ số nào sang hệ 10*
+## **Chuyển Đổi Cơ Số**
+### *Chuyển đổi bất cứ cơ số nào sang hệ 10*
 -Chúng ta nhân mỗi chữ số với giá trị vị trí của nó trong hệthống nguồn và cộng các kết quả lại để thu được số trong hệ thập phân.
-## *Chuyển từ cơ số 10 sang cơ số bất kỳ*
+### *Chuyển từ cơ số 10 sang cơ số bất kỳ*
 - Chúng ta có thể chuyển đổi một số thập phân sang cơ số tương ứng
 bất kỳ.
 
@@ -224,7 +224,7 @@ bất kỳ.
 - Chuyển đổi phần nguyên: sử dụng phép chia lặp.
 
  -Chuyển đổi phần thập phân: sử dụng phép nhân lặp.
-## *Thuật toán chuyển đổi phần nguyên*
+### *Thuật toán chuyển đổi phần nguyên*
 - Xác định hệ cơ số đích (b).
 
 - Chia phần nguyên của số cần chuyển đổi (N) cho cơ số đích.
@@ -236,7 +236,7 @@ bất kỳ.
 - Lặp lại bước 2 đến 4 cho đến khi phần nguyên còn lại là 0.
 
 - Kết quả cuối cùng là các chữ số dư thu được, đọc từ dưới lên trên (từ phải qua trái).
-## *Chuyển đổi phần thập phân*
+### *Chuyển đổi phần thập phân*
 - Xác định hệ cơ số đích (b).
 
 - Nhân phần thập phân của số cần chuyển đổi với cơ số đích.
@@ -267,7 +267,6 @@ Bài tóm tắt này cung cấp một cái nhìn tổng quan về lịch sử ph
 
 ---
 # Bài 3 : Kỹ năng sử dụng máy tính và công cụ
-
 
 # **Khái niệm Tập tin và Thư mục**
 ## *Tập tin*: một đơn vị lưu trữ dữ liệu ở các dạng khác nhau (text, audio,image, ...), các chương trình máy tính có thể đọc thông tin từ file hoặcghi thông tin vào một file.
