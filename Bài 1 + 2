@@ -76,10 +76,10 @@ Máy tính có nhiều ứng dụng trong hầu hết các lĩnh vực:
 - **Thiết bị ngoại vi**
 
 ### Các thành phần chính của máy tính
--** Bo mạch chủ (Motherboard)
+- Bo mạch chủ (Motherboard)
 - Là bảng mạch chính kết nối tất cả các thành phần phần cứng lại với nhau và cho phép chúng giao tiếp.
 
--** Bộ xử lý trung tâm (CPU)
+- Bộ xử lý trung tâm (CPU)
 - **Chức năng**: Điều khiển các hoạt động của máy tính và xử lý dữ liệu.
 - **Cấu trúc cơ bản**:
   - Đơn vị điều khiển (CU - Control Unit)
@@ -87,41 +87,41 @@ Máy tính có nhiều ứng dụng trong hầu hết các lĩnh vực:
   - Tập thanh ghi (RF - Register File)
   - Đơn vị giao diện Bus (BIU - Bus Interface Unit)
 
--** Bộ nhớ (RAM)
+- Bộ nhớ (RAM)
 - **Chức năng**: Lưu trữ dữ liệu tạm thời và chương trình đang hoạt động, cho phép CPU truy cập nhanh chóng.
 - **Các loại bộ nhớ trong**:
   - Bộ nhớ chính (Main Memory)
   - Bộ nhớ đệm (Cache Memory)
 
--** Ổ cứng (HDD/SSD)
+- Ổ cứng (HDD/SSD)
 - **Chức năng**: Lưu trữ dữ liệu lâu dài, bao gồm hệ điều hành, ứng dụng và tài liệu.
 - **Loại**:
   - HDD: Dung lượng lớn hơn, tốc độ chậm hơn.
   - SSD: Tốc độ nhanh hơn, dung lượng nhỏ hơn.
 
--** Card đồ họa (GPU)
+ Card đồ họa (GPU)
 - **Chức năng**: Xử lý hình ảnh và video, đặc biệt quan trọng trong game và đồ họa 3D.
 
--** Nguồn cấp điện (PSU)
+- Nguồn cấp điện (PSU)
 - Cung cấp năng lượng cho tất cả các thành phần của máy tính.
 
--** Thiết bị ngoại vi
+- Thiết bị ngoại vi
 - Các thiết bị giúp người dùng tương tác với máy tính, bao gồm bàn phím, chuột, màn hình, máy in, v.v.
 
--** Hệ thống vào ra (I/O system)
+- Hệ thống vào ra (I/O system)
 - **Chức năng**: Trao đổi thông tin giữa máy tính với thế giới bên ngoài.
 - **Các thành phần chính**:
   - Các mô-đun điều khiển vào ra (I/O Modules)
   - Các thiết bị ngoại vi (Peripheral Devices)
 
--** Một số loại mô-đun vào ra (I/O Modules)
+- Một số loại mô-đun vào ra (I/O Modules)
 - Card màn hình
 - Card mở rộng cổng ghép nối (COM, LPT,...)
 - Card xử lý đồ họa
 - Card âm thanh
 - ...
 
-## Bộ nhớ ngoài
+- Bộ nhớ ngoài
 - **Đặc điểm, chức năng**: Dung lượng lớn, lưu trữ lâu dài, dữ liệu không mất đi khi không có nguồn điện cung cấp.
 - **Các loại bộ nhớ ngoài**:
   - Đĩa cứng (HDD, SSD)
