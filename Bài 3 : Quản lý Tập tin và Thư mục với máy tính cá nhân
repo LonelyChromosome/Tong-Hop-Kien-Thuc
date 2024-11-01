@@ -1,0 +1,44 @@
+# ***Ky nang su dung may tinh va cong cu***
+
+
+# **Khái niệm Tập tin và Thư mục**
+## *Tập tin*: một đơn vị lưu trữ dữ liệu ở các dạng khác nhau (text, audio,image, ...), các chương trình máy tính có thể đọc thông tin từ file hoặcghi thông tin vào một file.
+- Mỗi tập tin có phần tên và mở rộng: bai_tap.pdf, bai_tap.txt, bai_tap.docx, ...
+- Mỗi tập tin có một dung lượng xác định
+- Người dùng có thể sử dụng các chương trình khác nhau để tạo, chỉnh sửa,sao chép, và xoá tập tin
+## *Thư mục*: là một đơn vị logic dùng để nhóm, tổ chức và chứa các tập
+tin mới mục đích khác nhau.
+### Thư mục có thể chứa nhiều thư mục con khác nhau
+### Thư mục thường được đặt tên theo nội dung hoặc mục đích sử dụng
+- Quản lý dữ liệu hiệu quả phục phụ việc tìm kiếm và truy cập dễ dàng
+
+- Tổ chức công việc: phân loại, đặt tên tập tin và thư mục theo mục đích hặc theo dự án
+
+- Đặt tên file và thư mục sử dụng chữ viết thường tránh nhầm lẫn giữa chữ hoa và chữ thường
+
+- Tránh sử dụng ký tự đặc biệt (?, /, *, <, “, >, |, ...) trong việc đặt tên các file và thư mục
+# **Cấu trúc cây thư mục**
+## *Cấu trúc cây thư mục:* Các tập tin và thư mục thường được tổ chức theo dạng phân cấp giống hình cây: thư mục gốc, và các thư mục con
+## *Đường dẫn (Path name):* là chuỗi ký tự mô tả vị trí của tập tin hoặc thư mục trong một hệ thống máy tính
+
+### Trong Hệ điều hành Windows:
+
+-Bắt đầu bằng ký hiệu của ổ đĩa (C:\)
+
+- Các thư mục bên trong đường dẫn dược biểu thị bằng “\”
+
+- Thư mục hoặc tập tin cuối cùng là vị trí được truy cập
+
+- VD: C:\Users\Guner\Documents
+# **Phân loại đường dẫn**
+## *Đường dẫn tuyệt đối (obsolute path):*
+- Chỉ rõ vị chí chính xác của tập tin hoặc thư mục từ thư mục gốc
+- Không phụ thuộc vào vị trí thư mục hiện tại
+- Ví dụ:
+- Windows: C:\Program Files\MyApp\app.exe
+- Unix, MacOS, Linux: /usr/local/bin/my_script.sh
+
+## *Đường dẫn tương đối (relative path)*
+- Chỉ vị trí “tương đối” của tập tin / thư mục từ thư mục hiện tại
+- Dấu “.” đại điện cho thư mục hiện hành, “..” đại diện cho thư mục cha
+- Ví dụ: ../../home/my_directory
