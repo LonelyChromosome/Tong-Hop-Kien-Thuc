@@ -1,0 +1,35 @@
+# Biểu Diễn Thông Tin Trong Máy Tính
+
+## Thông tin, dữ liệu trong thế giới thực được số hóa
+Dữ liệu thực tế được số hóa để có thể "nhập vào" và xử lý bởi máy tính:
+- Hình ảnh
+- Âm thanh
+- Chữ viết
+
+## Số nhị phân và biểu diễn dữ liệu trong máy tính
+- Sử dụng 2 ký hiệu “0” và “1” để biểu diễn các giá trị tương ứng là 0 và 1.
+- **Bit nhị phân**: Đơn vị đo thông tin cơ bản nhỏ nhất, với giá trị có thể là 0 hoặc 1.
+
+## Đơn vị đo thông tin cơ bản
+- **Bit** (B): Đơn vị nhỏ nhất của thông tin, với giá trị có thể là 0 hoặc 1.
+- Các đơn vị lớn hơn:
+  - **Byte (B)**: 1 Byte = 8 Bit
+  - **KiloByte (KB)**: 1 KB = 2^10 Byte = 1024 Byte
+  - **MegaByte (MB)**: 1 MB = 2^10 KB = 1024 KB
+  - **GigaByte (GB)**: 1 GB = 2^10 MB = 1024 MB
+  - **TeraByte (TB)**: 1 TB = 2^10 GB = 1024 GB
+
+## Số hóa dữ liệu
+- **Lấy mẫu tín hiệu**: Quá trình chuyển đổi các tín hiệu từ dạng liên tục sang dạng rời rạc.
+- **Chuyển đổi tín hiệu điện – giá trị số**: Quá trình chuyển đổi tín hiệu analog thành tín hiệu số để xử lý bởi máy tính.
+
+---
+
+### Ví dụ Minh Họa
+| Đơn vị | Ký hiệu | Mô tả |
+|-------|---------|-------|
+| Byte  | B       | 8 Bit |
+| KiloByte | KB    | 1024 Byte |
+| MegaByte | MB    | 1024 KB |
+| GigaByte | GB    | 1024 MB |
+| TeraByte | TB    | 1024 GB |
