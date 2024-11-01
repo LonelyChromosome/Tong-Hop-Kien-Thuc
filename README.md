@@ -427,23 +427,23 @@ hành và các ứng dụng của nó
 - arguments: Các đối số là đầu vào mà lệnh sẽ thao tác. Ví dụ: tên tệp hoặc thư mục.
 ## **Các Lệnh Cơ Bản trong Linux**
 
-- |------------|-------------------------------------------------|
-- | `pwd`      | In thư mục làm việc hiện tại                    |
-- | `cd`       | Thay đổi thư mục làm việc                       |
-- | `ls`       | Liệt kê các tập tin trong thư mục làm việc      |
-- | `man`      | Đưa ra hướng dẫn cho một lệnh                   |
-- | `exit`     | Đăng xuất khỏi shell                            |
-- | `clear`    | Xóa tất cả đầu ra khỏi bảng điều khiển          |
-- | `date`     | Xuất ngày hệ thống                              |
-- | `cal`      | Xuất lịch văn bản                               |
- -| `uname`    | In thông tin về hệ thống hiện tại               |
-- | `mkdir`    | Tạo một thư mục mới                             |
-- | `rmdir`    | Xóa thư mục đã cho (phải trống)                 |
-- | `cat`      | Hiển thị nội dung tệp                           |
-- | `cp`       | Sao chép tệp                                    |
-- | `mv`       | Di chuyển tệp (cũng được sử dụng để đổi tên tệp)|
-- | `rm`       | Xóa tệp đã cho                                  |
-- | `touch`    | Tạo tệp trống hoặc thay đổi thời gian sửa đổi   |  
+ |------------|-------------------------------------------------|
+ | `pwd`      | In thư mục làm việc hiện tại                    |
+ | `cd`       | Thay đổi thư mục làm việc                       |
+ | `ls`       | Liệt kê các tập tin trong thư mục làm việc      |
+ | `man`      | Đưa ra hướng dẫn cho một lệnh                   |
+ | `exit`     | Đăng xuất khỏi shell                            |
+ | `clear`    | Xóa tất cả đầu ra khỏi bảng điều khiển          |
+ | `date`     | Xuất ngày hệ thống                              |
+ | `cal`      | Xuất lịch văn bản                               |
+ | `uname`    | In thông tin về hệ thống hiện tại               |
+ | `mkdir`    | Tạo một thư mục mới                             |
+ | `rmdir`    | Xóa thư mục đã cho (phải trống)                 |
+ | `cat`      | Hiển thị nội dung tệp                           |
+ | `cp`       | Sao chép tệp                                    |
+ | `mv`       | Di chuyển tệp (cũng được sử dụng để đổi tên tệp)|
+ | `rm`       | Xóa tệp đã cho                                  |
+ | `touch`    | Tạo tệp trống hoặc thay đổi thời gian sửa đổi   |  
 
 ---
 
