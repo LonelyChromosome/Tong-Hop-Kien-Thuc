@@ -426,8 +426,8 @@ hành và các ứng dụng của nó
 
 - arguments: Các đối số là đầu vào mà lệnh sẽ thao tác. Ví dụ: tên tệp hoặc thư mục.
 ## **Các Lệnh Cơ Bản trong Linux**
-
- |------------|-------------------------------------------------|
+| Lệnh | Tác dụng |
+|------------|-------------------------------------------------|
  | `pwd`      | In thư mục làm việc hiện tại                    |
  | `cd`       | Thay đổi thư mục làm việc                       |
  | `ls`       | Liệt kê các tập tin trong thư mục làm việc      |
